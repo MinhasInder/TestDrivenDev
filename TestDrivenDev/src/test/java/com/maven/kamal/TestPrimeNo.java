@@ -34,4 +34,9 @@ public class TestPrimeNo {
 		assertEquals(false, PrimeNo.checkPrime(8));
 	
 	}
+ @Test
+	public void testNotPrimeNo() {
+		assertEquals(false, PrimeNo.checkPrime(12));
+	
+	}
 }
