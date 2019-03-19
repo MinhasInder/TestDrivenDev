@@ -29,4 +29,9 @@ public class TestPrimeNo {
 		assertEquals(true, PrimeNo.checkEven(10));
 	
 	}
+        @Test
+	public void testNotPrimeNo() {
+		assertEquals(false, PrimeNo.checkPrime(8));
+	
+	}
 }
